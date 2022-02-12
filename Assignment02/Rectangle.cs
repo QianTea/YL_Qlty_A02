@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Author: Yifen Lin
+ * 
+ * Purpose: Assignment 1
+ * Date: 2022-02-11
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +12,13 @@ using System.Threading.Tasks;
 
 namespace Assignment02
 {
-	 class Rectangle
+	public  class Rectangle
 	{
-		private int length;
+/*		private int length;
 		private int width;
 		private int perimeter;
 		private int area;
-
+*/
 		public int Length { get; set; }
 		public int Width { get; set; }
 		public int Perimeter { get; set; }
@@ -23,8 +29,8 @@ namespace Assignment02
 		//default constructor
 		public Rectangle()
 		{
-			length = 1;
-			width = 1;
+			Length = 1;
+			Width = 1;
 		}
 
 		//non-default constructor
@@ -55,13 +61,13 @@ namespace Assignment02
 		}
 		public int GetPerimeter()
 		{
-			perimeter = (Length + Width) * 2;
-			return perimeter;
+			Perimeter = (Length + Width) * 2;
+			return Perimeter;
 		}
 		public int GetArea()
 		{
-			area = Length * Width;
-			return area;
+			Area = Length * Width;
+			return Area;
 		}
 	}
 

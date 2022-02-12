@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Author: Yifen Lin
+ * 
+ * Purpose: Assignment 1
+ * Date: 2022-02-11
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -90,15 +96,13 @@ namespace Assignment02
 				else
 				{
 					Console.WriteLine("please enter a value again");
-					inputLength();
-					return l;
+					return inputLength();
 				}
 			}
 			catch(Exception ex)
 			{
 				Console.WriteLine( "please enter a value again");
-				inputLength();
-				return l;
+				return inputLength();
 			}
 		}
 
@@ -119,15 +123,13 @@ namespace Assignment02
 				else
 				{
 					Console.WriteLine("please enter a value again");
-					inputWidth();
-					return w;
+					return inputWidth();
 				}
 			}
 			catch (Exception ex)
 			{
 				Console.WriteLine("please enter a value again");
-				inputWidth();
-				return w;
+				return inputWidth();
 			}
 		}
 
